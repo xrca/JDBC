@@ -97,7 +97,7 @@ public class JDBCConnection {
         /**
          * 反射获取驱动类，此步骤也可以省略，
          * 因为：在mysql的驱动中的META-INF中已经配置了驱动类
-         * 但不建议，因为换为类型数据库不一定可以
+         * 但不建议，因为换为其他类型数据库不一定可以
          */
         Class.forName("com.mysql.jdbc.Driver");
 
